@@ -7,6 +7,11 @@ namespace DiceGamePrototype
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Character Test = new Character();
+            Test.Test();
+            Test.printCharacter();
+
+            Console.ReadLine();
         }
     }
 }
